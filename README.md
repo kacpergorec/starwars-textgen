@@ -1,7 +1,6 @@
-# Star wars text generator
+# Star Wars Text Generator
 
 Hi my name is Kacper,
 
 This is a quick front-end project that i was on my mind yesterday.
-
-Its a simple star-wars animated stylized text generator. GONK!
+It's a simple star-wars animated stylized text generator. GONK!
