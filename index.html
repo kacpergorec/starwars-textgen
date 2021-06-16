@@ -15,28 +15,32 @@
     <title>Star Wars - Text Generator</title>
 </head>
 <body>
+<audio id="audio">
+    <source src="assets/main-theme.mp3" type="audio/mp3">
+</audio>
 <div class="background-container">
     <div class="form-wrapper">
         <h2>Episode</h2>
-        <input class="input episode" type="text" placeholder="Episode IV">
+        <input class="input episode" type="text" placeholder="Episode IV" id="episode">
         <h2>Title</h2>
-        <input class="input title" type="text" placeholder="A New Hope">
+        <input class="input title" type="text" placeholder="A New Hope" id="title">
         <h2>Text</h2>
         <textarea class="input text"
-                  placeholder="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire...">
+                  placeholder="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire..."
+                  id="text">
         </textarea>
         <button class="input lit play" >Play</button>
     </div>
+    <div class="begin">A long time ago in a galaxy far,<br>far away...</div>
     <div class="logo"></div>
     <div class="fade"></div>
     <section class="scroll-wrapper">
         <div class="scroll">
             <div class="title">
-                <p>Episode IV</p>
-                <h1>A New Hope</h1>
+                <p class="scroll-episode"></p>
+                <h1 class="scroll-title"></h1>
             </div>
-            <p>It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory
-                against the evil Galactic Empire.</p>
+            <p class="scroll-text"></p>
         </div>
     </section>
     <div class="stars"></div>
