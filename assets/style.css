@@ -173,9 +173,10 @@ body {
 }
 
 .form-wrapper .input:focus , .form-wrapper .input.lit{
-    outline: 2px solid white;
+    border: 7px solid white;
     background: white;
     color: black;
+    margin: -3px;
 }
 
 .input.lit.play{
