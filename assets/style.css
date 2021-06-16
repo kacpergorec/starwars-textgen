@@ -177,6 +177,7 @@ body {
     background: white;
     color: black;
     margin: -3px;
+    outline: 0;
 }
 
 .input.lit.play{
